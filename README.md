@@ -1,6 +1,6 @@
 # cert-exporter
 
-This image is used within the cert_metrics task utilised in AWS ECS.  
+This image is used within the cert_metrics task utilised in AWS ECS. For more info on the image & required params check out the base image repo linked below.  
 Base image: https://github.com/joe-elliott/cert-exporter
 
 ## cert_exporter
