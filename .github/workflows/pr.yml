@@ -3,8 +3,9 @@ name: PR
 on:
   pull_request:
     paths-ignore:
+      - 'docs/**'
+      - '*.md'
       - 'ci/**'
-      - '**/*.md'
 
 env:
   IMAGE_NAME: dwpdigital/cert-exporter
