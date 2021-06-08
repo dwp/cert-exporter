@@ -11,6 +11,6 @@ resource "aws_ecr_repository_policy" "cert-exporter" {
   policy     = data.terraform_remote_state.management.outputs.ecr_iam_policy_document
 }
 
-output "ecr_example_url" {
+output "ecr_cert_exporter_url" {
   value = aws_ecr_repository.cert-exporter.repository_url
 }
