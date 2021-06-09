@@ -1,3 +1,5 @@
 *.pem
 terraform.tf
 terraform.tfvars
+
+.idea
